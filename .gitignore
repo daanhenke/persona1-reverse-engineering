@@ -1,0 +1,6 @@
+.claude/
+data/
+old/
+scenes/
+tools/
+__pycache__/
