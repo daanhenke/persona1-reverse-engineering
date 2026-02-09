@@ -1,0 +1,1 @@
+SECTOR_SIZE = 2048

@@ -1,0 +1,24 @@
+[project]
+name = "p1patch"
+version = "0.1.0"
+description = ""
+authors = [
+    { name = "Daan" }
+]
+requires-python = ">=3.10"
+dependencies = [
+  "pillow",
+  "keystone",
+  "capstone",
+  "pydantic"
+]
+
+[project.scripts]
+p1patch = "p1patch.cli:main"
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
